@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * budgetting.features.field_instance.inc
+ * budgeting.features.field_instance.inc
  */
 
 /**
  * Implements hook_field_default_field_instances().
  */
-function budgetting_field_default_field_instances() {
+function budgeting_field_default_field_instances() {
   $field_instances = array();
 
   // Exported field_instance: 'node-money_cache-field_cache_goals'.

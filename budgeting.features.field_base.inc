@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * budgetting.features.field_base.inc
+ * budgeting.features.field_base.inc
  */
 
 /**
  * Implements hook_field_default_field_bases().
  */
-function budgetting_field_default_field_bases() {
+function budgeting_field_default_field_bases() {
   $field_bases = array();
 
   // Exported field_base: 'field_amount'.

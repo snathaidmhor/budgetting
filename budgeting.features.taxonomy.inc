@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * budgetting.features.taxonomy.inc
+ * budgeting.features.taxonomy.inc
  */
 
 /**
  * Implements hook_taxonomy_default_vocabularies().
  */
-function budgetting_taxonomy_default_vocabularies() {
+function budgeting_taxonomy_default_vocabularies() {
   return array(
     'expense_type' => array(
       'name' => 'Expense Type',

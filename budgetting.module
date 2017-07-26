@@ -1,7 +1,0 @@
-<?php
-/**
- * @file
- * Code for the Budgetting feature.
- */
-
-include_once 'budgetting.features.inc';

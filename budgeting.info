@@ -1,4 +1,4 @@
-name = Budgetting
+name = Budgeting
 description = A budgeting helper.
 core = 7.x
 package = Features

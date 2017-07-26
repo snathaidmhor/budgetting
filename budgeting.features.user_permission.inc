@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * budgetting.features.user_permission.inc
+ * budgeting.features.user_permission.inc
  */
 
 /**
  * Implements hook_user_default_permissions().
  */
-function budgetting_user_default_permissions() {
+function budgeting_user_default_permissions() {
   $permissions = array();
 
   // Exported permission: 'access content'.

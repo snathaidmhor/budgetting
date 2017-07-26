@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * budgetting.views_default.inc
+ * budgeting.views_default.inc
  */
 
 /**
  * Implements hook_views_default_views().
  */
-function budgetting_views_default_views() {
+function budgeting_views_default_views() {
   $export = array();
 
   $view = new view();

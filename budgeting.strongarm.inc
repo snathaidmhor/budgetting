@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * budgetting.strongarm.inc
+ * budgeting.strongarm.inc
  */
 
 /**
  * Implements hook_strongarm().
  */
-function budgetting_strongarm() {
+function budgeting_strongarm() {
   $export = array();
 
   $strongarm = new stdClass();

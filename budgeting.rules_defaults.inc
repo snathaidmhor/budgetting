@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * budgetting.rules_defaults.inc
+ * budgeting.rules_defaults.inc
  */
 
 /**
  * Implements hook_default_rules_configuration().
  */
-function budgetting_default_rules_configuration() {
+function budgeting_default_rules_configuration() {
   $items = array();
   $items['rules_to_homepage_after_add'] = entity_import('rules_config', '{ "rules_to_homepage_after_add" : {
       "LABEL" : "To Homepage after add",
