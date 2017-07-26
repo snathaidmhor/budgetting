@@ -15,7 +15,7 @@ function budgetting_views_default_views() {
   $view->description = '';
   $view->tag = 'budgets';
   $view->base_table = 'node';
-  $view->human_name = 'Current Caches';
+  $view->human_name = 'Budgeting: Current Caches';
   $view->core = 7;
   $view->api_version = '3.0';
   $view->disabled = FALSE; /* Edit this to true to make a default view disabled initially */
@@ -195,7 +195,7 @@ function budgetting_views_default_views() {
   $view->description = '';
   $view->tag = 'budgets';
   $view->base_table = 'node';
-  $view->human_name = 'Monthly Expenses';
+  $view->human_name = 'Budgeting: Monthly Expenses';
   $view->core = 7;
   $view->api_version = '3.0';
   $view->disabled = FALSE; /* Edit this to true to make a default view disabled initially */
@@ -414,7 +414,7 @@ function budgetting_views_default_views() {
   $view->description = '';
   $view->tag = 'budgets';
   $view->base_table = 'node';
-  $view->human_name = 'Monthly Income';
+  $view->human_name = 'Budgeting: Monthly Income';
   $view->core = 7;
   $view->api_version = '3.0';
   $view->disabled = FALSE; /* Edit this to true to make a default view disabled initially */
@@ -590,7 +590,7 @@ function budgetting_views_default_views() {
   $view->description = '';
   $view->tag = 'budgets';
   $view->base_table = 'node';
-  $view->human_name = 'Yearly Expenses';
+  $view->human_name = 'Budgeting: Yearly Expenses';
   $view->core = 7;
   $view->api_version = '3.0';
   $view->disabled = FALSE; /* Edit this to true to make a default view disabled initially */
